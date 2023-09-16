@@ -9,7 +9,15 @@ The main requirements are to show that:
 
 ## Environment configuration
 
-Here, you should include appropriate screenshots with additional commentary. 
+During the second week, my primary objective was to establish and configure my development environment in order to meet the collaborative demands of the course. This study encompassed a number of essential tasks, which have been thoroughly documented in the following section.
+
+#### Task 1. Create a team repository for the Red Team
+
+- **Screenshot:  
+POSTAVI SKRIINSHOT NA OTBORNOTO REPO
+  <figcaption align = "center"><b>Figure 1 Shared GitHub repository</b></figcaption><br>
+  Figure 1 shows our team's repository. This image depicts the main page of the shared GitHub repository for our team. It was very important to collaborate effectively since the very beginning of our project, as minor mistakes might cause serious issues at later stages of the team project. This repository will contain all of the project files (including documentation), and stores each file's revision history centralized(like a central server between all team members).
+
 
 **DO**
 
