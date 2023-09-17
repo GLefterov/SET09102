@@ -32,30 +32,7 @@ During the second week, my primary objective was to establish and configure my d
 - #### Task 5. Run the MAUI App
 - **Screenshot:** ![Screenshot 5](./images/Screenshot_WorkingMAUI.png)
   <figcaption align = "center"><b>Figure 5 The MAUI App up-n-running </b></figcaption><br>
-- **Comment:** The screenshot shows the running MAUI App and its beatiful robot. When the button on the windows gets clicked, it rerenders and starts a click counter. 
-  
-**DO**
-
-* Place your image files in the `images` folder
-* Choose your screenshots carefully so that they communicate the appropriate information.
-  Many screenshots with no clear purpose or with trivial differences are of little value.
-* Provide <ins>descriptive</ins> commentary to explain why the screenshot is included. 
-  what it shows and point out any particularly significant details.
-* Modify your screenshots - for example, by adding arrows, outlines or other highlighting 
-  techniques - to enhance their communication value.
-* Remove unnecessary material from your screenshots such as toolbars, other windows and 
-  computer desktop to eliminate distractions.
-* Ensure that any important content is clearly legible. Pay particular attention to text
-  size and image resolution.
-* Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
-  as labels for images. Also, use the caption numbers to refer to images in your text.
-
-**DON'T**
-
-* Expect the reader to understand your reasons for including a screenshot. If you can't
-  explain it, the screenshot will not do the job on its own.
-* Include self-evident comments. For example, don't simply list the values used on a
-  configuration page if those values are clearly visible in the screenshot.
+- **Comment:** The screenshot shows the running MAUI App and its beatiful robot. When the button on the windows gets clicked, it rerenders and starts a click counter.
 
 ## Reflection
 
