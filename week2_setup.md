@@ -15,16 +15,16 @@ During the second week, my primary objective was to establish and configure my d
  
 - **Screenshot:** ![Screenshot1](./images/Screenshot_repo.png)
   <figcaption align = "center"><b>Figure 1 Shared GitHub repository</b></figcaption><br>
-  - **Figure 1:** shows our team's repository. This image depicts the main page of the shared GitHub repository for our team. It was very important to collaborate effectively since the very beginning of our project, as minor mistakes might cause serious issues at later stages of the team project. This repository will contain all of the project files (including documentation), and stores each file's revision history centralized(like a central server between all team members).
+ - **Comment:**  shows our team's repository. This image depicts the main page of the shared GitHub repository for our team. It was very important to collaborate effectively since the very beginning of our project, as minor mistakes might cause serious issues at later stages of the team project. This repository will contain all of the project files (including documentation), and stores each file's revision history centralized(like a central server between all team members).
 
 #### Task 2. Clone the team repository into local
 - **Screenshot:** ![Screenshot 2](./images/Screenshot_gitclone1.png)
   <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption><br>
-  - **Figure 2:** This image shows how to clone the repository using the Git CLI using Windows 11. I already had git installed on my PC, but if you don't just download it from here: https://git-scm.com/downloads and follow the setup process. After the setup is done, restart your CMD/Powershell and you will have it working.
+- **Comment:**  This image shows how to clone the repository using the Git CLI using Windows 11. I already had git installed on my PC, but if you don't just download it from here: https://git-scm.com/downloads and follow the setup process. After the setup is done, restart your CMD/Powershell and you will have it working.
 #### Task 3. Install all dependencies in Visual Studio
 - **Screenshot:** ![Screenshot 3](./images/Screenshot_MAUIinstall.png)
   <figcaption align = "center"><b>Figure 3 Checking and Installing prerequisites using the "Visual Studio Installer" </b></figcaption><br>
-- **Comment:** Shows the Visual Studio Installer modifying window that shows us that I already have the MAUI package installed. If your window doesn't have that same box ticked, you most likely don't have it. In order to install it as easy as possible you can tick the checkbock and then click "install" at the bottom-right corner and it will easy and conveniently install it for you.
+**Comment:** Shows the Visual Studio Installer modifying window that shows us that I already have the MAUI package installed. If your window doesn't have that same box ticked, you most likely don't have it. In order to install it as easy as possible you can tick the checkbock and then click "install" at the bottom-right corner and it will easy and conveniently install it for you.
 #### Task 4. Open the MAUI App using Visual Studio
 - **Screenshot:** ![Screenshot 4](./images/Screenshot_MAUIRun.png)
   <figcaption align = "center"><b>Figure 4 Opened the MAUI App</b></figcaption><br>
