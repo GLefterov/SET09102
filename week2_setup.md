@@ -24,12 +24,12 @@ During the second week, my primary objective was to establish and configure my d
 #### Task 3. Install all dependencies in Visual Studio
 - **Screenshot:** ![Screenshot 3](./images/Screenshot_MAUIinstall.png)
   <figcaption align = "center"><b>Figure 3 Checking and Installing prerequisites using the "Visual Studio Installer" </b></figcaption><br>
-**Comment:** Shows the Visual Studio Installer modifying window that shows us that I already have the MAUI package installed. If your window doesn't have that same box ticked, you most likely don't have it. In order to install it as easy as possible you can tick the checkbock and then click "install" at the bottom-right corner and it will easy and conveniently install it for you.
+ - **Comment:** Shows the Visual Studio Installer modifying window that shows us that I already have the MAUI package installed. If your window doesn't have that same box ticked, you most likely don't have it. In order to install it as easy as possible you can tick the checkbock and then click "install" at the bottom-right corner and it will easy and conveniently install it for you.
 #### Task 4. Open the MAUI App using Visual Studio
 - **Screenshot:** ![Screenshot 4](./images/Screenshot_MAUIRun.png)
   <figcaption align = "center"><b>Figure 4 Opened the MAUI App</b></figcaption><br>
 - **Comment:** This image shows the opened MAUI App just before running it. The screenshot is included in case the user is new to VS and depicts how an opened project looks and the button that needs to be clicked in order to build the program.
-- #### Task 5. Run the MAUI App
+#### Task 5. Run the MAUI App
 - **Screenshot:** ![Screenshot 5](./images/Screenshot_WorkingMAUI.png)
   <figcaption align = "center"><b>Figure 5 The MAUI App up-n-running </b></figcaption><br>
 - **Comment:** The screenshot shows the running MAUI App and its beatiful robot. When the button on the windows gets clicked, it rerenders and starts a click counter.
