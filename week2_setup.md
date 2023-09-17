@@ -18,7 +18,7 @@ During the second week, my primary objective was to establish and configure my d
   - **Figure 1:** shows our team's repository. This image depicts the main page of the shared GitHub repository for our team. It was very important to collaborate effectively since the very beginning of our project, as minor mistakes might cause serious issues at later stages of the team project. This repository will contain all of the project files (including documentation), and stores each file's revision history centralized(like a central server between all team members).
 
 #### Task 2. Clone the team repository into local
-- **Screenshot:** ![Screenshot 2](./images/Screenshot_gitclone.png)
+- **Screenshot:** ![Screenshot 2](./images/Screenshot_gitclone1.png)
   <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption><br>
   - **Figure 2:** This image shows how to clone the repository using the Git CLI using Windows 11. I already had git installed on my PC, but if you don't just download it from here: https://git-scm.com/downloads and follow the setup process. After the setup is done, restart your CMD/Powershell and you will have it working.
 #### Task 3. Install all dependencies in Visual Studio
