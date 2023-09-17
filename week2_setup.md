@@ -20,8 +20,7 @@ During the second week, my primary objective was to establish and configure my d
 #### Task 2. Clone the team repository into local
 - **Screenshot:** ![Screenshot 2](./images/Screenshot_gitclone.png)
   <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption><br>
-  - **Figure 2:** Shows how to clone the repository using the Git CLI using Windows 11. I already had Git configured locally.
-
+  - **Figure 2:** Shows how to clone the repository using the Git CLI using Windows 11. I already had git installed on my PC, but if you don't just download it from here: https://git-scm.com/downloads and follow the setup process. After the setup is done, restart your CMD/Powershell and you will have it working.
 #### Task 3. Install all dependencies in Visual Studio
 - **Screenshot:** ![Screenshot 3](./images/Screenshot_MAUIinstall.png)
   <figcaption align = "center"><b>Figure 3 Checking and Installing prerequisites using the "Visual Studio Installer" </b></figcaption><br>
