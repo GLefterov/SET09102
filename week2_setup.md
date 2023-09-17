@@ -19,10 +19,15 @@ During the second week, my primary objective was to establish and configure my d
 
 #### Task 2. Clone the team repository into local
 - **Screenshot:** ![Screenshot 2](./images/Screenshot_gitclone.png)
-  <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption>
+  <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption><br>
   - **Figure 2:** Shows how to clone the repository using the Git CLI using Windows 11. I already had Git configured locally.
 
+#### Task 3. Install all dependencies in Visual Studio
+- **Screenshot:** ![Screenshot 3](./images/Screenshot_MAUIinstall.png)
+  <figcaption align = "center"><b>Figure 2 Cloning the team repository</b></figcaption>
+  - **Figure 3:** Shows how to clone the repository using the Git CLI using Windows 11. I already had Git configured locally.
 
+  
 **DO**
 
 * Place your image files in the `images` folder
