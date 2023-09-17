@@ -35,22 +35,14 @@ During the second week, my primary objective was to establish and configure my d
 - **Comment:** The screenshot shows the running MAUI App and its beatiful robot. When the button on the windows gets clicked, it rerenders and starts a click counter.
 
 ## Reflection
+### Repository setup
 
-For this section, decide what points are worth making and structure your content 
-appropriately.
+The portfolio setup was pretty straightforward and I did it within a few minutes.
 
-**DO**
+### Teamwork
 
-* Use sub-headings to differentiate between sections
-* Provide <ins>reflective</ins> commentary that discusses, for example, limitations of
-  your current configuration, how your configuration is appropriate for the current 
-  project, alternative configuration that might be appropriate in ther circumstances, 
-  etc.
-* Mention any difficulties you had setting up your working environment and how you 
-  resolved them
+The teamwork is very important and in the beginning it was a bit tough to get into communication with each other, but once a person from our team decided it was a good idea to get a Discord server and once we had one running it was much easier. We could have used different platforms such as Teams, but I'm already feeling comfortable with Discord.
 
-**DON'T**
+### Technical problems
 
-* Repeat the descriptive commentary from point 1
-* Give a blow-by-blow account of everything you did. Instead, you should highlight 
-  the important points.
+I have ran into several issues, but it was all my bad as I had no disk space lol. Once I deleted some old files it all went good and smooth.
