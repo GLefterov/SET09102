@@ -24,7 +24,7 @@ During the second week, my primary objective was to establish and configure my d
 
 #### Task 3. Install all dependencies in Visual Studio
 - **Screenshot:** ![Screenshot 3](./images/Screenshot_MAUIinstall.png)
-  <figcaption align = "center"><b>Figure 3 Checking and Installing prerequisites using the "Visual Studio Installer" </b></figcaption>
+  <figcaption align = "center"><b>Figure 3 Checking and Installing prerequisites using the "Visual Studio Installer" </b></figcaption><br>
   - **Figure 3:** Shows the Visual Studio Installer modifying window that shows us that I already have the MAUI package installed. If you don't have it you can tick the checkbock and click "install" and it will easy and conveniently install it for you.
 
   
