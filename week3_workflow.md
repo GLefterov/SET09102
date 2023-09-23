@@ -1,7 +1,5 @@
 # Workflow
 
-Objective
-
 This document provides a meticulous step-by-step breakdown of our team's operational procedure on GitHub, accentuated with images for an enhanced comprehension.
 
 Table of Contents
@@ -84,6 +82,7 @@ The commands I've used to commit were:
 git status  
 git add *
 git commit -m "Commit message"
+git push --set-upstream origin feature/MAUI#3
 ````
 <figure>
 <img src="./images/gitcommit.png" alt="Fig5" style="width:100%">
