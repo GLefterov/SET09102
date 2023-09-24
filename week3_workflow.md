@@ -115,4 +115,4 @@ Our adoption of a clear workflow, grounded in the principles of Agile methodolog
 
 The git version control system was central to our operations. Best practices like frequent commits, feature branching, and descriptive commit messages ensured that our codebase remained organized. The command git status, often employed, served as our litmus test, continuously providing insights into the project's state.
 
-However, no amount of preparation can completely shield a team from challenges. Merge conflicts became an unexpected tutorial in the nuances of collaborative coding. These experiences underscored the importance of clear communication and perhaps a more regimented task delegation system.
+However, no amount of preparation can completely shield a team from challenges. Merge conflicts became an unexpected tutorial in the nuances of collaborative coding. These experiences underscored the importance of clear communication.
