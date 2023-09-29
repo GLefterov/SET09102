@@ -49,14 +49,14 @@ public static string DecorateTelephoneNumber(string countryCode = null,
     
     return phoneNumber.ToString();
 }
-```
 
+``` 
 **Changes:** 
 - Method Naming Conventions: The method name has been updated to DecorateTelephoneNumber from decorateTelephoneNumber adhering to the PascalCase naming convention of C# for method names. This enhances readability and aligns with standard practices.
 
 - Default Parameter Values: The default values of the method parameters have been set to null. This approach provides a clearer distinction, making it obvious when a caller hasn't provided a specific value.
 
-- Utilized 'StringBuilder': The updated code now uses StringBuilder for constructing the phone number. This is a more efficient way of handling string manipulations, especially when concatenating multiple strings, as it avoids creating multiple intermediate string objects.
+- Utilizing 'StringBuilder': The updated code now uses StringBuilder for constructing the phone number. This is a more efficient way of handling string manipulations, especially when concatenating multiple strings, as it avoids creating multiple intermediate string objects.
 
 - Enhanced Empty String Check: The conditions have been updated to utilize string.IsNullOrEmpty, which provides a clearer and more efficient way of checking whether a string is null or empty.
 
