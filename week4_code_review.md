@@ -30,6 +30,7 @@ After looking through the code, I did find some lines of code that could benefit
 <br>
 <br>
 ## Improved code: <br>
+
 ```
 public static string DecorateTelephoneNumber(string countryCode = null, 
                                              string localCode = null,
@@ -50,7 +51,9 @@ public static string DecorateTelephoneNumber(string countryCode = null,
     return phoneNumber.ToString();
 }
 
-``` 
+```
+
+
 **Changes:** 
 - Method Naming Conventions: The method name has been updated to DecorateTelephoneNumber from decorateTelephoneNumber adhering to the PascalCase naming convention of C# for method names. This enhances readability and aligns with standard practices.
 
