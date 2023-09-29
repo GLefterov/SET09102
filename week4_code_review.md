@@ -1,5 +1,5 @@
 # Code review
-## Initial code
+## Initial code:
 The starting code from the code review challenge was: 
 ```
 public static string decorateTelephoneNumber(string countryCode = "", 
@@ -49,8 +49,8 @@ public static string DecorateTelephoneNumber(string countryCode = null,
     
     return phoneNumber.ToString();
 }
+```
 
-``` 
 **Changes:** 
 - Method Naming Conventions: The method name has been updated to DecorateTelephoneNumber from decorateTelephoneNumber adhering to the PascalCase naming convention of C# for method names. This enhances readability and aligns with standard practices.
 
