@@ -28,7 +28,7 @@ After looking through the code, I did find some lines of code that could benefit
 
 - Checking for Empty Strings: The method checks for empty strings using countryCode != "". C# provides helper methods like IsNullOrEmpty or IsNullOrWhiteSpace that are more readable.
 <br>
-<br>
+
 ## Improved code: <br>
 
 ```
