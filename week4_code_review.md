@@ -20,13 +20,13 @@ public static string decorateTelephoneNumber(string countryCode = "",
 
 **Commentary:**     
 After looking through the code, I did find some lines of code that could benefit improvements. The issues ranged from naming conventions to inneficient string operations and code readability concerns:
-- There is a method named decorateTelephoneNumber. In C#, it's standard convention to use PascalCase for method names. Following such conventions ensures code consistency and readability.
+- Method Naming Conventions: There is a method named decorateTelephoneNumber. In C#, it's standard convention to use PascalCase for method names. Following such conventions ensures code consistency and readability.
 
-- The method parameters are assigned default values of empty strings (""). Using null as a default for strings in C# provides a clearer distinction between "no value" and "an empty value".
+- Default Parameter Values: The method parameters are assigned default values of empty strings (""). Using null as a default for strings in C# provides a clearer distinction between "no value" and "an empty value".
 
-- The code uses the + operator for string concatenation, which can be inefficient for frequent operations due to strings in C# being immutable.
+- String Concatenation: The code uses the + operator for string concatenation, which can be inefficient for frequent operations due to strings in C# being immutable.
 
-- The method checks for empty strings using countryCode != "". C# provides helper methods like IsNullOrEmpty or IsNullOrWhiteSpace that are more readable.
+- Checking for Empty Strings: The method checks for empty strings using countryCode != "". C# provides helper methods like IsNullOrEmpty or IsNullOrWhiteSpace that are more readable.
 <br>
 <br>
 ## Improved code:
