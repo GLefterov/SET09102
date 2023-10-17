@@ -55,3 +55,4 @@ public void OnAttemptSubmitted_NullWord()
 
 * **Limitations:** The test assumes that a null word will always throw a ```NullReferenceException```. If the code gets modified to handle null values differently or to assign a default value to the word, this test might not adequately represent the desired behavior.
 
+It's important to assume that unexpected scenarios can arise. Maybe due to some other bug, the word becomes null, or perhaps an administrative action unintentionally sets it to null. This test ensures that our method doesn't crash in such situations. While it's tempting to think "the word will never be null," good testing often involves assuming the unexpected.
