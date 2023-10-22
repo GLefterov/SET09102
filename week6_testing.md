@@ -55,4 +55,8 @@ public void OnAttemptSubmitted_NullWord()
 
 * **Limitations:** The test assumes that a null word will always throw a ```NullReferenceException```. If the code gets modified to handle null values differently or to assign a default value to the word, this test might not adequately represent the desired behavior.
 
-It's important to assume that unexpected scenarios can arise. Maybe due to some other bug, the word becomes null, or perhaps an administrative action unintentionally sets it to null. This test ensures that our method doesn't crash in such situations. While it's tempting to think "the word will never be null," good testing often involves assuming the unexpected.
+### Evaluation
+
+Yes, the test `OnAttemptSubmitted_NullWord` failed during the final evaluation. The oversight likely arose because the developer that wrote the code hasn't anticipate the chain of method calls initiated by the GamePage constructor, leading to the invocation of an unimplemented platform-specific method. This highlights the importance of isolating unit tests from external dependencies and platform-specific behaviors. The developer might have assumed that the method would always be executed in a platform-specific context and hence did not account for its behavior in a pure unit-testing environment.
+
+When developers write code, especially in cross-platform environments, they often test on actual devices or emulators. They might have missed this issue because the platform-specific version of the method works correctly there. Unit tests, on the other hand, typically run in a different environment where platform-specific code isn't executed, leading to such errors. The developer might have overlooked the need to mock or stub out this platform-specific behavior when writing unit tests.
