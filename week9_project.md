@@ -217,10 +217,6 @@ public string Name
 
 - I've adopted a more systematic approach to my personal workflow by integrating a checklist for code reviews to ensure no aspect is overlooked.
 
-### Identifying Problems
-
-- My ability to identify problems in other people's code has improved as I am now more vigilant about potential issues such as error handling and code redundancy.
-
 ## Links to GitHub Repository
 
 - [DatabaseOperations Class](https://github.com/Software-Engineering-Red/MAUI-APP/blob/feature/mapFeature-23/Services/DatabaseOperations.cs)
