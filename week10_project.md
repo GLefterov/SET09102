@@ -108,6 +108,33 @@ The feedback process underscored the importance of having different perspectives
 
 I implemented these changes, which improved the code's quality and maintainability.
 
+## Code review for a teammate
+```csharp
+private SQLiteAsyncConnection _dbConn;
+
+        private async Task ConnectToDB()
+        {
+            if (_dbConn != null)
+                return;
+
+            _dbConn = new SQLiteAsyncConnection(DatabaseSettings.DBPath, DatabaseSettings.Flags);
+            await _dbConn.CreateTableAsync<LogisticsOperation>();
+        }
+        public LogisticsService()
+        {
+            _dbConn = new SQLiteAsyncConnection(DatabaseSettings.DBPath, DatabaseSettings.Flags);
+        }
+
+        public async Task<List<LogisticsOperation>> GetAllOperations()
+        {
+            return await _dbConn.Table<LogisticsOperation>().ToListAsync();
+        }
+```
+db connection initialization - The constructor initializes _dbConn, but there's also a ConnectToDB method which seems redundant since it checks for _dbConn nullity and then initializes it. Consider removing the redundancy to streamline the connection setup.
+
+
+
+async - The asynchronous nature of ConnectToDB might not be fully utilized since it's called within a synchronous context in AddLogisticsOperation. Be cautious about mixing asynchronous and synchronous contexts as it can lead to performance bottlenecks.
 
 
 ## Reflective Summary
@@ -118,10 +145,14 @@ I implemented these changes, which improved the code's quality and maintainabili
 **Learning and Adapting from Peer Feedback:** Receiving and acting on feedback from code reviews has been a cornerstone of my growth. I've learned to embrace constructive criticism, using it as a stepping stone to refine my coding practices. For example, a recent suggestion from a peer to simplify my code logic led to a more elegant and maintainable solution, which was well-received by the team.
 
 **Streamlined Communication and Collaboration:** Our team has made substantial progress in streamlining communication and collaboration. The introduction of weekly  stand-ups has significantly improved project transparency and team alignment. These brief meetings have become a platform for addressing blockers and sharing updates, ensuring everyone is in sync. In our case as this is a learning module it was really helpful to have such sessions to just split duos to code review each other as well rotate the teams.
-### Future Enhancements
+## Future Enhancements
 
 While we've made great strides, there's always room for improvement. Unfortunately some people don't have advanced git knowledge and .NET MAUI proficiency. As so, I'd suggest some improvements in the near future:
 
 **Pair Programming:** Implementing pair programming sessions, especially for complex features or bug fixes, can enhance team collaboration and knowledge transfer into people without proficiency in the tech stack we use for this project. I'm a fan of the tendency that we all can learn by each other. As so, each developer can be in help of another.
 
 **Feedback Mechanism Enhancement:** Establishing a more structured feedback mechanism, both for code and overall team performance, can help in identifying areas of improvement and ensure continuous growth. I've spotted some people organize sessions to share their feedback (not through the github platform), so they were talking through the issues they've found. I think it would be much better to actually implement that kind of CR feedback, as the owner of the code could understand CR outcomes better.
+
+## Links:
+- [Pull Request](https://github.com/Software-Engineering-Red/MAUI-APP/pull/132)
+- [Code Review](https://github.com/Software-Engineering-Red/MAUI-APP/pull/125)
