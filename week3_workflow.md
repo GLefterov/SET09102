@@ -111,7 +111,9 @@ Once a task has been validated and is ready for integration, a pull request is i
 
 Embarking on this project, we were keenly aware of the intrinsic complexities of software development. Our early discussions prioritized the establishment of good practices and protocols, recognizing their importance in ensuring efficiency and maintaining the integrity of our work.
 
-Our adoption of a clear workflow, grounded in the principles of Agile methodologies, was pivotal. Regular stand-up meetings kept the team aligned, ensuring that everyone was abreast of the project's status. This not only aided in task distribution but also in identifying potential bottlenecks early on.
+Our adoption of a clear workflow, grounded in the principles of Agile methodologies, was pivotal. Regular stand-up meetings kept the team aligned, ensuring that everyone was abreast of the project's status. This not only aided in task distribution but also in identifying potential bottlenecks early on. Some of my propositions to the team during the meeting were implemented in the workflow.md document to our project. Some of my propositions were the 24-hour maximum time to do a code review, before a different team member could finish the review and merge the pull request. This way our timeboxes are met and our commits to the project won't be postponed for a later sprint review.
+
+[Workflow](https://github.com/Software-Engineering-Red/MAUI-APP/blob/master/Documentation/workflow.md)
 
 The git version control system was central to our operations. Best practices like frequent commits, feature branching, and descriptive commit messages ensured that our codebase remained organized. The command git status, often employed, served as our litmus test, continuously providing insights into the project's state.
 
