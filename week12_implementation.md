@@ -72,12 +72,12 @@ private void OnSubmit()
   ## Code Quality Evaluation  
 Using the built-in Visual Studio 2022 tools, I was tasked with creating a short report based on our code evaluation with the Code Metrics tool. Our code evaluation came out as a very good project, which I'm proud of.
 
-Maintainability Index (relative ease of maintaining the code): 84 
-Cyclomatic Complexity (structural complexity of diff paths): 161
-Depth of Inheritence: 8
-Class Coupling: 119
-Lines of Source code: 3972
-Lines of executable code: 883
+- Maintainability Index (relative ease of maintaining the code): 84 
+- Cyclomatic Complexity (structural complexity of diff paths): 161
+- Depth of Inheritence: 8
+- Class Coupling: 119
+- Lines of Source code: 3972
+- Lines of executable code: 883
 
   ## Code Review
 
