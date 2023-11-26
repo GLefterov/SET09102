@@ -134,8 +134,11 @@ Despite the numerous benefits, our workflow wasn't without challenges:
 - Learning Curve: New team members initially struggled with the Agile framework and toolset. We mitigated this through mentorship programs and regular training sessions.
   
 Definition of Ready:
+
     - There's a clear business value
+    
     - Acceptance criteria are clear and defined
+    
     - Dependencies are identified
 
 
