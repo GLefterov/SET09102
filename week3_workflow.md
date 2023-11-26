@@ -117,7 +117,7 @@ Our adoption of a clear workflow, grounded in the principles of Agile methodolog
 
 #### Introduction to workflow
 In the pursuit of optimizing our software development process, our team adopted a workflow deeply rooted in Agile-Scrum methodology. This reflection aims to dissect the rationale behind our choices, acknowledging both the strengths and the areas where our approach might not align perfectly with every project scenario.
-####Why Agile-Scrum?
+#### Why Agile-Scrum?
 Agile-Scrum was chosen primarily for its flexibility and emphasis on continuous delivery and improvement. This approach, supported by a wealth of academic literature, promotes adaptability—a crucial attribute in today's rapidly changing software development landscape. The iterative nature of Agile allows for regular feedback and course corrections, ensuring that the end product truly aligns with user needs.
 Tools and Techniques
 We integrated a variety of tools and techniques to support this methodology:
@@ -126,7 +126,7 @@ We integrated a variety of tools and techniques to support this methodology:
 - CI/CD Pipeline: Automating deployment processes to minimize manual intervention and accelerate release cycles.
 - TDD and Code Reviews: Ensuring code quality and maintainability, a practice bolstered by numerous studies highlighting its effectiveness in reducing bugs and fostering cleaner code.
   
-####Team Structure and Communication
+#### Team Structure and Communication
 Our cross-functional team structure fostered a collaborative environment, essential for Agile's success. Regular stand-ups, sprint planning, and retrospectives were instrumental in maintaining open communication channels. However, we observed that the frequency of meetings, while beneficial for alignment, occasionally impacted deep work phases, suggesting a need for a more balanced approach.
 Challenges and Adaptations
 Despite the numerous benefits, our workflow wasn't without challenges:
