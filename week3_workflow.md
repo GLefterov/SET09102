@@ -133,6 +133,12 @@ Despite the numerous benefits, our workflow wasn't without challenges:
 - Scalability: Agile-Scrum can be less effective for larger, more complex projects. In such cases, we found blending Agile with elements of other methodologies, like Waterfall, helped maintain structure without sacrificing agility.
 - Learning Curve: New team members initially struggled with the Agile framework and toolset. We mitigated this through mentorship programs and regular training sessions.
   
+Definition of Ready:
+    - There's a clear business value
+    - Acceptance criteria are clear and defined
+    - Dependencies are identified
+
+
 #### Reflection on Continuous Improvement
 Reflecting on the effectiveness of our approach, it's clear that while our workflow aligns well with Agile's principles, it requires continuous evaluation and adaptation. The software development landscape is dynamic, and what works today may not be as effective tomorrow. Regular retrospectives were not just a means to refine our current projects but also an opportunity to evolve our overall process.
 
