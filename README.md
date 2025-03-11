@@ -1,9 +1,8 @@
 # SET09102 portfolio
 
-This repository provide a starting template for your SET09102 portfolio.
+This repository provides a starting template for your SET09102 portfolio.
 
-Most of the initial content should be removed before submission and replaced with your
-own. The initial content is only there to provide guidelines and suggestions for you.
+Most of the initial content was removed, and worked on as an Agile based team on an educational module, whose tech stack included .NET MAUI and MySQL.
 
 Please remember that you should think about your portfolio as something that you could
 show to a potential employer in the future. Consider what that kind of reader needs from
